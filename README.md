@@ -8,25 +8,27 @@ Provides random book recommendations from the books I've read each time you clic
 - **Backend**: Spring Boot + Maven
 - **Architecture**: REST API with MVC pattern
 
-### Prerequisites
+## Prerequisites
 
 - Java 17+
 - Node.js 16+
 - Maven 3.6+
 
-### Setup & Run
+## Setup & Run
 
 1. **Start backend:**
-
+```bash
 cd backend/bookshelf
 mvn spring-boot:run
-backend runs on: `http://localhost:8080`
+```
+Backend runs on: `http://localhost:8080`
 
-2. **Start frontend**
-
+2. **Start frontend:**
+```bash
 cd frontend
 npm install
 npm run dev
+```
 Frontend runs on: `http://localhost:5173`
 
 ## API Endpoints
